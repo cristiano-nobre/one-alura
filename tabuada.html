@@ -1,0 +1,25 @@
+<meta charset="UTF-8" />
+<script>
+  function pulaLinha() {
+    document.write('<br><hr><br>')
+  }
+
+  function mostra(frase) {
+    document.write('<big>' + frase + '</big>')
+    pulaLinha()
+  }
+
+  // REPETIDOR FOR
+
+  for (var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+    mostra(7 * multiplicador)
+  }
+
+  // REPETIDOR WHILE
+
+  var multiplicador = 1
+  while (multiplicador <= 10) {
+    mostra(8 * multiplicador)
+    multiplicador++
+  }
+</script>
